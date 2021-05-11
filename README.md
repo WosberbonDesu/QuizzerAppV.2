@@ -13,3 +13,6 @@ Quizzer App but upgraded version
 ![g](https://user-images.githubusercontent.com/69467096/117830242-1ef51880-b27c-11eb-857c-573f93005a90.jpg)
 ![l](https://user-images.githubusercontent.com/69467096/117830247-1f8daf00-b27c-11eb-8119-ab575cb969f6.jpg)
 
+
+![x](https://user-images.githubusercontent.com/69467096/117830629-7e532880-b27c-11eb-9a49-ceabe10d0c67.jpg)
+![playstore](https://user-images.githubusercontent.com/69467096/117830747-9aef6080-b27c-11eb-9016-b763d953fe18.png)
