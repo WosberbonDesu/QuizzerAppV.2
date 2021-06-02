@@ -1,6 +1,20 @@
 # QuizzerAppV.2
 Quizzer App  upgraded version
-
+## Additional
+```python
+ Future<void> addQuestionData(Map questionData, String quizId) async {
+    await Firestore.instance
+        .collection("Quiz")
+        .document(quizId)
+        .collection("QNA")
+        .add(questionData)
+        .catchError((e) {
+      print(e);
+    });
+    
+  }
+```
+# Due to security reasons, personal keys and codes that provide firebase communication have been deleted, edit it according to you.
 
 
 
@@ -18,7 +32,28 @@ Quizzer App  upgraded version
 ![playstore](https://user-images.githubusercontent.com/69467096/117830747-9aef6080-b27c-11eb-9016-b763d953fe18.png)
 
 
+```python
+ getQuizezData() async {
+    return await Firestore.instance.collection("Quiz").snapshots();
+  }
 
+  getQuestionData(String quizId) async {
+    return await Firestore.instance
+        .collection("Quiz")
+        .document(quizId)
+        .collection("QNA")
+        .getDocuments();
+  }
+  getQuizData(String quizId) async{
+    return await Firestore.instance
+        .collection("Quiz")
+        .document(quizId)
+        .collection("QNA")
+        .getDocuments();
+  }
+    
+  }
+```
 
 
 
