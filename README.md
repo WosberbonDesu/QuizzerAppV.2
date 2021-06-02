@@ -1,5 +1,7 @@
 # QuizzerAppV.2
 Quizzer App  upgraded version
+This application has the feature of creating and deleting quizzes as they want by transferring data with the firebase console and saving them
+
 ## Additional
 ```python
  Future<void> addQuestionData(Map questionData, String quizId) async {
